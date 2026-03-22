@@ -56,6 +56,6 @@ Content-Type: multipart/form-data; boundary=MiBoundary
 --MiBoundary
 Content-Disposition: form-data; name="imagen"; filename="avatar.jpg"
 Content-Type: image/jpeg
-
+//direccion para la imagen 
 < C:\Users\andre\Downloads\evidencia2\avatar.jpg
 --MiBoundary--
