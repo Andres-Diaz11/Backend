@@ -6,6 +6,7 @@ from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView
 )
+# Definición de las rutas principales del proyecto
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api_tareas.urls')),
