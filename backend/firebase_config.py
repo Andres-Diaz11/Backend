@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def get_firestore_client():
+    # Verifica si ya existe una app de Firebase inicializada
+    # (evita inicializarla más de una vez)
     if not firebase_admin._apps:
         base_dir = os.path.dirname(os.path.abspath(__file__))
         
