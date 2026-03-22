@@ -13,7 +13,7 @@ def get_firestore_client():
         
         
         file_name = os.getenv('FIREBASE_KEYS_PATH')
-        
+        # Construye la ruta completa al archivo JSON de credenciales
         cert_path = os.path.join(base_dir, file_name)
         
         cred = credentials.Certificate(cert_path)
