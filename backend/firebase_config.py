@@ -2,7 +2,7 @@ import os
 import firebase_admin
 from firebase_admin import credentials,firestore
 from dotenv import load_dotenv
-
+# Carga las variables de entorno desde el archivo .env
 load_dotenv()
 
 def get_firestore_client():
