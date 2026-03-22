@@ -15,6 +15,7 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
+    # Ejecuta el comando que se pase por consola (ej: runserver, migrate, etc.)
     execute_from_command_line(sys.argv)
 
 
