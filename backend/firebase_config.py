@@ -17,6 +17,7 @@ def get_firestore_client():
         cert_path = os.path.join(base_dir, file_name)
         
         cred = credentials.Certificate(cert_path)
+        # Inicializa la app de Firebase con las credenciales
         firebase_admin.initialize_app(cred)
         
     return firestore.client()
